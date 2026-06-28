@@ -85,3 +85,22 @@
 .video-card:hover {
     transform: scale(1.05);
 }
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+
+    .search-bar {
+        width: 60%;
+    }
+}
+
+@media (max-width: 480px) {
+    .search-bar {
+        width: 70%;
+    }
+
+    .categories {
+        overflow-x: auto;
+    }
+}
